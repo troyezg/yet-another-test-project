@@ -373,3 +373,217 @@ color: #E21F4D;
 
     color: #969696;
 }
+
+.landing-page__image-block__sign {
+    position: absolute;
+    width: 130.86px;
+    height: 84.52px;
+    left: 791.02px;
+    top: 633.35px;
+    transform: rotate(13.25deg);
+}
+
+.landing-page__textblock-1 {
+    position: absolute;
+    width: 656px;
+    height: 203px;
+    left: 893px;
+    top: 160px;
+}
+
+.landing-page__maintext-red {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 55px;
+    line-height: 70px;
+    margin: 0;
+
+    color: #3F3F3F;
+}
+
+.landing-page__maintext-black {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 55px;
+    line-height: 70px;
+    margin: 0;
+
+    color: #E21F4D;
+}
+
+.landing-page__textblock-2 {
+    position: absolute;
+    width: 425px;
+    height: 76px;
+    left: 950px;
+    top: 404px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    margin: 0;
+
+    color: #3F3F3F;
+}
+
+.landing-page__textblock-2-red {
+    color: #E21F4D;
+}
+
+.landing-page__textblock-2-tiny {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.landing-page__button-block {
+    position: absolute;
+    width: 292px;
+    height: 91px;
+    left: 951px;
+    top: 496.5px;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.landing-page__button-block__text {
+    position: relative;
+    width: 188px;
+    height: 25px;
+    left: 51px;
+    top: 8px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+
+    color: #FFFFFF;
+}
+
+.landing-page__button-block__rectangle-1 {
+    position: absolute;
+    width: 292px;
+    height: 80px;
+
+    background: #E21F4D;
+    box-shadow: inset 0px 0px 27px 4px rgba(255, 255, 255, 0.46);
+    border-radius: 1000px;
+}
+
+.landing-page__button-block__rectangle-2 {
+    position: absolute;
+    width: 236px;
+    height: 64px;
+    top: 40px;
+    left: 27px;
+
+    background: rgba(226, 31, 77, 0.6);
+    filter: blur(17px);
+    border-radius: 1000px;
+}
+
+.landing-page__card {
+    position: absolute;
+    width: 427px;
+    height: 140px;
+    left: 950px;
+    top: 642px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 11.9636px 46.1455px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+}
+
+.landing-page__card__tooth-icon {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    top: 43px;
+    left: 28px;
+}
+
+.landing-page__card__big-text {
+    position: absolute;
+    width: 265px;
+    height: 25px;
+    top: 5px;
+    left: 109px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+
+    color: #3F3F3F;
+}
+
+.landing-page__card__text {
+    position: absolute;
+    width: 283px;
+    height: 36px;
+    top: 39px;
+    left: 109px;
+
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+
+    color: #3F3F3F;
+}
+
+.landing-page__card__read-more-button {
+    position: absolute;
+    width: fit-content;
+    height: 23px;
+    top: 97px;
+    left: 103px;
+    border: 1px dashed, rgba(63, 63, 63, 1.0);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+
+    color: #3F3F3F;
+}
+
+.landing-page__card__next-button {
+    position: absolute;
+    width: 55.58px;
+    height: 55.58px;
+    top: 42px;
+    right: -27px;
+    border: none;
+
+    background: #FFFFFF;
+    box-shadow: 0px 15.258px 58.8524px rgba(0, 0, 0, 0.08);
+    border-radius: 40px;
+}
+
+.landing-page__card__next-button__icon {
+    position: absolute;
+    width: 15px;
+    height: 20px;
+    top: 18px;
+    left: 23px;
+}
