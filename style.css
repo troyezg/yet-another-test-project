@@ -590,3 +590,216 @@ color: #E21F4D;
     top: 18px;
     left: 23px;
 }
+
+.info-block {
+    position: relative;
+    width: 100%;
+    height: 5026px;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+.info-block__cards-block {
+    position: relative;
+    width: 1555px;
+    height: 599px;
+}
+
+.info-block__cards-block__little-title {
+    position: relative;
+    width: 143px;
+    height: 44px;
+    left: 380px;
+    top: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #FFFFFF;
+    box-shadow: 0px 15.258px 58.8524px rgba(0, 0, 0, 0.08);
+    border-radius: 350.9px;
+}
+
+.info-block__cards-block__little-title__text {
+    position: relative;
+    width: 85px;
+    height: 19px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    margin: 0;
+
+    color: #E21F4D;
+}
+
+.info-block__cards-block__title {
+    position: absolute;
+    width: 905px;
+    height: 85px;
+    left: 380px;
+    top: 114px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    text-transform: uppercase;
+    margin: 0;
+
+    color: #3F3F3F;
+}
+
+.info-block__cards-block__title__red {
+    word-spacing: 3px;
+    color: #E21F4D;
+}
+
+.info-block__cards-block__cards-container {
+    position: relative;
+    width: fit-content;
+    height: 400px;
+    left: 380px;
+    top: 204px;
+    gap: 25px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-block__cards-block__cards-container__card {
+    position: relative;
+    width: 370px;
+    height: 400px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    box-sizing: border-box;
+
+    background: #FFFFFF;
+    box-shadow: 0px 14px 66px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 0px 10px 10px;
+}
+
+.info-block__cards-block__cards-container__card__image {
+    position: relative;
+    width: 370px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.info-block__cards-block__cards-container__card__text-block {
+    position: relative;
+    width: 370px;
+    height: 200px;
+}
+
+.info-block__cards-block__cards-container__card__text-block__title {
+    position: relative;
+    height: 25px;
+    left: 31px;
+    top: 33px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    margin: 0;
+
+    color: #3F3F3F;
+}
+
+.info-block__cards-block__cards-container__card__text-block__text {
+    position: relative;
+    width: 308px;
+    height: 36px;
+    left: 31px;
+    top: 30px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+
+    color: #3F3F3F;
+}
+
+.info-block__cards-block__cards-container__card__call-button {
+    position: relative;
+    width: 146.37px;
+    height: 39.65px;
+    left: 31px;
+    top: 37px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-sizing: border-box;
+    background: #E21F4D;
+    box-shadow: inset 0px 0px 27px 4px rgba(255, 255, 255, 0.46);
+    border-radius: 1000px;
+}
+
+.info-block__cards-block__cards-container__card__call-button__text {
+    position: relative;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    margin: 0;
+
+    color: #FFFFFF;
+}
+
+.info-block__cards-block__cards-container__card__read-more-button {
+    position: relative;
+    left: 189px;
+    top: 7px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    background-color: transparent;
+    border: 1px dashed, rgba(63, 63, 63, 1.0);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+    color: #3F3F3F;
+}
+
+.info-block__cards-block__arrow-button {
+    position: relative;
+    width: 55.58px;
+    height: 55.58px;
+    top: -24px;
+    left: 352px;
+    border: none;
+
+    transform: rotate(180deg);
+    background: #FFFFFF;
+    box-shadow: 0px 15.258px 58.8524px rgba(0, 0, 0, 0.08);
+    border-radius: 40px;
+}
+
+.arrow-button-2 {
+    top: -22px;
+    left: 1449px;
+    transform: rotate(0deg);
+}
