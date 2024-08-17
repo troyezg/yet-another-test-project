@@ -1351,10 +1351,10 @@ color: #E21F4D;
 }
 
 .principles-block {
-    overflow: hidden;
     position: relative;
     width: 100%;
     height: 771px;
+    z-index: 5;
 }
 
 .principles-block__image {
@@ -1362,7 +1362,6 @@ color: #E21F4D;
     width: auto;
     height: auto;
     top: -262px;
-    z-index: 2;
 }
 
 .principles-block__little-title {
@@ -2085,11 +2084,21 @@ footer {
     overflow: hidden;
 }
 
-.footer__title {
+.footer__content {
+    position: relative;
+    width: 1159px;
+    height: 575px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer__content__title {
     position: relative;
     width: 401px;
     height: 41px;
-    left: 750px;
+    left: 380px;
     top: 46px;
 
     font-family: 'Manrope';
@@ -2105,11 +2114,11 @@ footer {
     color: #3F3F3F;
 }
 
-.footer__text {
+.footer__content__text {
     position: relative;
     width: 708px;
     height: 54px;
-    left: 596px;
+    left: 225px;
     top: 76px;
 
     font-family: 'Manrope';
@@ -2123,7 +2132,7 @@ footer {
     color: #3F3F3F;
 }
 
-.footer__text__bold {
+.footer__content__text__bold {
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 700;
@@ -2134,27 +2143,27 @@ footer {
     color: #3F3F3F;
 }
 
-.footer__left-info-block {
+.footer__content__left-info-block {
     position: relative;
     width: 283px;
     height: 208px;
-    left: 382px;
+    left: 11px;
     top: 112px;
 }
 
-.footer__left-info-block__location {
+.footer__content__left-info-block__location {
     position: relative;
     width: 283px;
     height: 44px;
 }
 
-.footer__left-info-block__location__icon {
+.footer__content__left-info-block__location__icon {
     position: relative;
     width: auto;
     height: auto;
 }
 
-.footer__left-info-block__location__text {
+.footer__content__left-info-block__location__text {
     position: relative;
     width: 238px;
     height: 44px;
@@ -2171,7 +2180,7 @@ footer {
     color: #3F3F3F;
 }
 
-.footer__left-info-block__phone-number {
+.footer__content__left-info-block__phone-number {
     position: relative;
     width: 172px;
     height: 45px;
@@ -2179,13 +2188,13 @@ footer {
     left: 1px;
 }
 
-.footer__left-info-block__phone-number__icon {
+.footer__content__left-info-block__phone-number__icon {
     position: relative;
     width: auto;
     height: auto;
 }
 
-.footer__left-info-block__phone-number__text {
+.footer__content__left-info-block__phone-number__text {
     position: relative;
     width: 127px;
     height: 25.47px;
@@ -2202,7 +2211,7 @@ footer {
     color: #3F3F3F;
 }
 
-.footer__left-info-block__phone-number__online-icon {
+.footer__content__left-info-block__phone-number__online-icon {
     position: relative;
     width: auto;
     height: auto;
@@ -2210,7 +2219,7 @@ footer {
     top: -44px;
 }
 
-.footer__left-info-block__location__little-text {
+.footer__content__left-info-block__location__little-text {
     position: relative;
     left: 57px;
     top: -59px;
@@ -2225,7 +2234,7 @@ footer {
     color: #767676;
 }
 
-.footer__left-info-block__text-1 {
+.footer__content__left-info-block__text-1 {
     position: relative;
     width: 253px;
     height: 60px;
@@ -2241,7 +2250,7 @@ footer {
     color: #3F3F3F;
 }
 
-.footer__left-info-block__text-2 {
+.footer__content__left-info-block__text-2 {
     position: relative;
     width: 253px;
     height: 60px;
@@ -2257,37 +2266,37 @@ footer {
     color: #3F3F3F;
 }
 
-.footer__map-image {
+.footer__content__map-image {
     position: relative;
     width: auto;
     height: auto;
-    left: 600px;
+    left: 229px;
     top: -133px;
 
     filter: drop-shadow(0px 14px 46px rgba(0, 0, 0, 0.08));
 }
 
-.footer__right-info-block {
+.footer__content__right-info-block {
     position: relative;
     width: 253px;
     height: 206px;
     top: -509px;
-    left: 1288px;
+    left: 917px;
 }
 
-.footer__right-info-block__whatsapp {
+.footer__content__right-info-block__whatsapp {
     position: relative;
     width: 251px;
     height: 30px;
 }
 
-.footer__right-info-block__whatsapp__icon {
+.footer__content__right-info-block__whatsapp__icon {
     position: relative;
     width: auto;
     height: auto;
 }
 
-.footer__right-info-block__whatsapp__text {
+.footer__content__right-info-block__whatsapp__text {
     position: relative;
     width: 206px;
     height: 22px;
@@ -2305,7 +2314,7 @@ footer {
     color: #3F3F3F;
 }
 
-.footer__right-info-block__work-hours {
+.footer__content__right-info-block__work-hours {
     position: relative;
     width: 197px;
     height: 44px;
@@ -2313,13 +2322,13 @@ footer {
     top: 37px;
 }
 
-.footer__right-info-block__work-hours__icon {
+.footer__content__right-info-block__work-hours__icon {
     position: relative;
     width: auto;
     height: auto;
 }
 
-.footer__right-info-block__work-hours__text {
+.footer__content__right-info-block__work-hours__text {
     position: relative;
     width: 149px;
     height: 44px;
@@ -2337,7 +2346,7 @@ footer {
     color: #3F3F3F;
 }
 
-.footer__right-info-block__text-1 {
+.footer__content__right-info-block__text-1 {
     position: relative;
     width: 253px;
     height: 58px;
@@ -2354,7 +2363,7 @@ footer {
     color: #3F3F3F;
 }
 
-.footer__right-info-block__text-2 {
+.footer__content__right-info-block__text-2 {
     position: relative;
     width: 253px;
     height: 58px;
@@ -2369,4 +2378,12 @@ footer {
     text-align: right;
 
     color: #3F3F3F;
+}
+
+.doctors-principles-reviews-blocks {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
