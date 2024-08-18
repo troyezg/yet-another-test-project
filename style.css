@@ -866,13 +866,18 @@ color: #E21F4D;
     position: absolute;
     width: 1128px;
     height: 487px;
+
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .clinics-block__content__little-title {
     position: relative;
     width: 143px;
     height: 44px;
-    left: 951px;
+    left: 565px;
     top: 13px;
 
     display: flex;
@@ -903,7 +908,7 @@ color: #E21F4D;
     width: 219px;
     height: 168px;
     top: -11px;
-    left: 369px;
+    left: -18px;
 }
 
 .clinics-block__content__name-block__star {
@@ -961,7 +966,7 @@ color: #E21F4D;
     position: relative;
     width: 252px;
     height: 78.53px;
-    left: 380px;
+    left: -6px;
     top: 23px;
 }
 
@@ -1008,7 +1013,7 @@ color: #E21F4D;
     position: relative;
     width: 512px;
     height: 487px;
-    left: 545px;
+    left: 159px;
     top: -282px;
 }
 
@@ -1017,7 +1022,7 @@ color: #E21F4D;
     width: 447px;
     height: 117px;
     top: -711px;
-    left: 937px;
+    left: 551px;
 }
 
 .clinics-block__content__title-block__star-icon {
@@ -1049,7 +1054,7 @@ color: #E21F4D;
     width: 458px;
     height: 214px;
     top: -690px;
-    left: 1050px;
+    left: 664px;
 }
 
 .clinics-block__content__text-block__text {
@@ -1087,7 +1092,7 @@ color: #E21F4D;
     position: relative;
     width: 107.69px;
     height: 69.55px;
-    left: 1249px;
+    left: 863px;
     top: -704px;
 
     background: url(подпись.png);
@@ -1120,7 +1125,7 @@ color: #E21F4D;
 .doctors-block__content__text-block {
     position: relative;
     width: 1176px;
-    height: 138px;
+    height: fit-content;
 }
 
 .doctors-block__content__text-block__little-title {
@@ -1163,7 +1168,7 @@ color: #E21F4D;
 .doctors-block__content__text-block__title {
     position: relative;
     width: 327px;
-    height: 80px;
+    height: fit-content;
     left: 19px;
     top: 12px;
 
@@ -1253,7 +1258,7 @@ color: #E21F4D;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 25px;
+    gap: 20px;
 }
 
 .doctors-block__content__cards-container__card {
@@ -1398,6 +1403,62 @@ color: #E21F4D;
     }
 
 
+}
+
+.doctors-block__content__arrow-button {
+    visibility: hidden;
+    pointer-events: none;
+    position: absolute;
+    width: 55.58px;
+    height: 55.58px;
+    padding: 0;
+
+    border: none;
+
+    transform: rotate(180deg);
+    background: #FFFFFF;
+    box-shadow: 0px 15.258px 58.8524px rgba(0, 0, 0, 0.08);
+    border-radius: 40px;
+}
+
+.doctors-block__content__arrow-button-2 {
+    visibility: hidden;
+    pointer-events: none;
+    position: absolute;
+    width: 55.58px;
+    height: 55.58px;
+    padding: 0;
+
+    border: none;
+
+    background: #FFFFFF;
+    box-shadow: 0px 15.258px 58.8524px rgba(0, 0, 0, 0.08);
+    border-radius: 40px;
+}
+
+.doctors-block__content__rolling {
+    visibility: hidden;
+    pointer-events: none;
+    position: absolute;
+}
+
+.doctors-block__content__mobile-buttons {
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    left: 10px;
+    top: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.doctors-block__content__rolling {
+    position: absolute;
+    visibility: hidden;
+    pointer-events: none;
 }
 
 .principles-block {
@@ -2464,6 +2525,22 @@ footer {
     .info-block__cards-block {
         left: -15%;
     }
+
+    /* doctors block then */
+
+    .doctors-block {
+        width: 100%;
+    }
+
+    .doctors-block__content {
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .doctors-block__content__text-block {
+        max-width: 1176px;
+        width: 89%;
+    }
 }
 
 @media only screen and (max-width: 1400px) {
@@ -2499,6 +2576,17 @@ footer {
 
     .arrow-button-2 {
         left: 1058px;
+    }
+
+    /* doctors then */
+
+    .doctors-block__content__text-block__little-text-block {
+        left: calc(100% - 400px);
+    }
+
+    .doctors-block__content__cards-container {
+        justify-content: flex-start;
+        width: 85%;
     }
 }
 
@@ -2537,6 +2625,86 @@ footer {
     .landing-page__card {
         left: 33%;
     }
+
+    /* clinics then */
+    .clinics-block {
+        height: 850px;
+    }
+
+    .clinics-block__content {
+        width: 750px;
+    }
+
+    .clinics-block__content__little-title {
+        left: 98px;
+    }
+
+    .clinics-block__content__title-block {
+        left: 83px;
+    }
+
+    .clinics-book__content__text-block {
+        left: 98px;
+    }
+
+    .clinics-block__content__text-block__text-light {
+        visibility: hidden;
+        position: absolute;
+        pointer-events: none;
+    }
+
+    .clinics-block__content__name-block {
+        top: 262px;
+        left: 81px;
+    }
+    
+    .clinics-block__content__button-block  {
+        top: 279px;
+        left: 87px;
+    }
+
+    .clinics-block__content__doctor-image {
+        top: 74px;
+    }
+
+    .clinics-block__content__sign {
+        left: 247px;
+        top: -430px;
+    }
+
+    /* doctors then */
+
+    .doctors-block__content__mobile-buttons {
+        top: 900px;
+        left: 90px
+    }
+
+    .doctors-block__content__load-button {
+        visibility: hidden;
+        position: absolute;
+        pointer-events: none;
+    }
+
+    .doctors-block__content__arrow-button {
+        visibility: visible;
+        pointer-events: all;
+        position: relative;
+    }
+
+    .doctors-block__content__arrow-button-2 {
+        visibility: visible;
+        pointer-events: all;
+        position: relative;
+    }
+
+    .doctors-block__content__rolling {
+        visibility: visible;
+        pointer-events: all;
+        position: relative;
+        top: 10px;
+        left: -45px;
+    }
+
 }
 
 @media only screen and (max-width: 992px) { 
@@ -2577,6 +2745,14 @@ footer {
 
     .info-block__cards-block {
         left: -32%;
+    }
+
+    /* doctors then */
+
+    .doctors-block__content__text-block__little-text-block {
+        visibility: hidden;
+        position: absolute;
+        pointer-events: none;
     }
 }
 
@@ -2657,7 +2833,7 @@ footer {
     /* info-block then */
 
     .info-block {
-        height: 590px;
+        height: 530px;
     }
 
     .info-block__cards-block {
@@ -2749,6 +2925,250 @@ footer {
         font-size: 10px;
         left: 12px;
         top: 28px;
+    }
+
+    /* clinics then */
+
+    .clinics-block {
+        height: 530px;
+    }
+
+    .clinics-block__content {
+        width: 310px;
+    }
+
+    .clinics-block__content__little-title {
+        width: 100px;
+        height: 30px;
+        top: 29px;
+        left: 4px;
+    }
+
+    .clinics-block__content__little-title__text {
+        font-size: 10px;
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .clinics-block__content__name-block__star {
+        visibility: hidden;
+        position: absolute;
+        pointer-events: none;
+    }
+
+    .clinics-block__content__name-block__text {
+        font-size: 30px;
+        width: 190px;
+    }
+
+    .clinics-block__content__name-block__text-red {
+        font-size: 30px;
+    }
+
+    .clinics-block__content__name-block__little-text {
+        font-size: 10px;
+    }
+
+    .clinics-block__content__title-block__title {
+        font-size: 16px;
+    }
+
+    .clinics-block__content__title-block__star-icon {
+        visibility: hidden;
+        position: absolute;
+        pointer-events: none;
+    }
+
+    .clinics-block__content__button-block {
+        width: 300px;
+        height: 57px;
+    }
+
+    .clinics-block__content__button-block__rectangle-1 {
+        width: 300px;
+        height: 57px;
+    }
+
+    .clinics-block__content__button-block__rectangle-2 {
+        width: 300px;
+        height: 57px;
+        left: 5px;
+    }
+
+    .clinics-block__content__button-block__text {
+        font-size: 12px;
+        top: -97px;
+        left: 87px;
+    }
+
+    .clinics-block__content__doctor-image {
+        width: 252px;
+        height: auto;
+    }
+
+    .clinics-block__content__title-block {
+        top: -420px;
+        left: -9px;
+    }
+
+    .clinics-block__content__title-block__title {
+        width: 238px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .clinics-block__content__name-block {
+        top: 228px;
+        left: -7px;
+    }
+
+    .clinics-block__content__name-block__little-text {
+        top: -58px;
+    }
+    
+    .clinics-book__content__text-block {
+        top: -473px;
+        left: 5px;
+    }
+
+    .clinics-block__content__text-block__text {
+        font-size: 11px;
+        width: 264px;
+    }
+
+    .clinics-block__content__doctor-image {
+        left: 44px;
+        top: -42px;
+    }
+
+    .clinics-block__content__button-block {
+        top: 235px;
+        left: 5px;
+        z-index: 5;
+    }
+
+    .clinics-block__content__sign {
+        width: 65px;
+        height: auto;
+        top: -471px;
+        left: 78px;
+    }
+     
+    /* doctors then */
+
+    .doctors-block {
+        height: 466px;
+    }
+
+    .doctors-block__content {
+        height: 559px;
+    }
+
+    .doctors-block__content__text-block__little-title {
+        width: 125px;
+        height: 30px;
+        left: 9px;
+        top: 1px;
+    }
+
+    .doctors-block__content__text-block__little-title__text {
+        font-size: 10px;
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .doctors-block__content__text-block__title {
+        font-size: 16px;
+        line-height: 24px;
+        left: 9px;
+        top: 8px;
+        span {
+            font-size: 16px;
+            line-height: 24px;
+        }
+    }
+
+    .doctors-block__content__cards-container {
+        height: fit-content;
+    }
+
+    .doctors-block__content__cards-container__card {
+        width: 202px;
+        height: 302px;
+        top: -24px;
+        left: 4px;
+    }
+
+    .doctors-block__content__cards-container__card__image {
+        width: 128px;
+        height: 128px;
+    }
+
+    .doctors-block__content__cards-container__card__text-block {
+        width: 172px;
+        gap: 10px;
+        padding: 10px 15px 23px 12px;
+        height: fit-content;
+    }
+
+    .doctors-block__content__cards-container__card__text-block__title {
+        font-size: 12px;
+        width: 173px;
+        height: 16px;
+        line-height: 14px;
+    }
+
+    .doctors-block__content__cards-container__card__text-block__job {
+        font-size: 10px;
+        width: 175px;
+        height: 14px;
+        line-height: 14px;
+    }
+
+    .doctors-block__content__cards-container__card__text-block__text {
+        font-size: 10px;
+        width: 165px;
+        height: 43px;
+        line-height: 14px;
+    }
+
+    .doctors-block__content__cards-container__card__text-block__button {
+        width: 175px;
+        height: 30px;
+    }
+
+    .doctors-block__content__cards-container__card__text-block__button__text {
+        font-size: 10px;
+        top: 4px;
+        left: 41px;
+    }
+
+    .doctors-block__content__cards-container__card__text-block__button__icon {
+        width: 9px;
+        height: 9px;
+        top: -14px;
+        left: 111px;
+    }
+
+    .doctors-block__content__mobile-buttons {
+        top: 467px;
+        left: 26px;
+        gap: 30px;
+    }
+
+    .doctors-block__content__arrow-button {
+        width: 50px;
+        height: 50px;
+    }
+
+    .doctors-block__content__arrow-button-2 {
+        width: 50px;
+        height: 50px;
+    }
+
+    .doctors-block__content__rolling {
+        left: -58px;
+        top: 13px;
     }
 }
 
@@ -2972,10 +3392,10 @@ footer {
 
     .info-block__cards-block__rolling {
         visibility: visible;
-        position: relative;
+        position: absolute;
         pointer-events: all;
 
-        left: 34%;
+        left: 37%;
         top: 448px;
     }
 }
