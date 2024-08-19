@@ -2674,8 +2674,16 @@ footer {
 
     /* doctors then */
 
+    .doctors-block {
+        height: 1060px;
+    }
+
+    .doctors-block__content {
+        height: 1060px;
+    }
+
     .doctors-block__content__mobile-buttons {
-        top: 900px;
+        top: 975px;
         left: 90px
     }
 
@@ -2748,6 +2756,17 @@ footer {
     }
 
     /* doctors then */
+    .doctors-block {
+        height: 998px;
+    }
+
+    .doctors-block__content {
+        height: 998px;
+    }
+
+    .doctors-block__content__mobile-buttons {
+        top: 890px
+    }
 
     .doctors-block__content__text-block__little-text-block {
         visibility: hidden;
