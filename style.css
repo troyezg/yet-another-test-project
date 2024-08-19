@@ -2541,6 +2541,33 @@ footer {
         max-width: 1176px;
         width: 89%;
     }
+
+    /* principles then */
+    
+    .principles-block {
+        overflow: hidden;
+    }
+
+    .principles-block__image {
+        left: -12%;    
+    }
+
+    .principles-block__little-title {
+        left: 58%;
+    }
+
+    .principles-block__title {
+        left: 58%;
+    }
+
+    .principles-block__cards-container {
+        left: 63%;
+    }
+
+    .rinciples-block__button-block {
+        left: 67%;
+    }
+
 }
 
 @media only screen and (max-width: 1400px) {
@@ -2587,6 +2614,24 @@ footer {
     .doctors-block__content__cards-container {
         justify-content: flex-start;
         width: 85%;
+    }
+
+    /* principles then */ 
+
+    .principles-block__little-title {
+        left: 50%;
+    }
+
+    .principles-block__title {
+        left: 50%;
+    }
+
+    .principles-block__cards-container {
+        left: 58%;
+    }
+
+    .rinciples-block__button-block {
+        left: 62%;
     }
 }
 
@@ -2711,6 +2756,38 @@ footer {
         position: relative;
         top: 10px;
         left: -45px;
+    }
+
+    /* principles then */
+
+    .principles-block {
+        background-color: #F5F5F5;
+    }
+
+    .principles-block__image {
+        visibility: hidden;
+        position: absolute;
+        pointer-events: none;
+    }
+
+    .principles-block__little-title {
+        left: calc((100% - 575px) / 2);
+        top: 40px;
+    }
+
+    .principles-block__title {
+        left: calc((100% - 575px) / 2);
+        top: 60px;
+    }
+
+    .principles-block__cards-container {
+        left: calc((100% - 400px) / 2);
+        top: 80px;
+    }
+
+    .rinciples-block__button-block {
+        left: calc((100% - 292px) / 2);
+        top: 100px;
     }
 
 }
@@ -3076,7 +3153,8 @@ footer {
     /* doctors then */
 
     .doctors-block {
-        height: 466px;
+        height: 467px;
+        padding-bottom: 36px;
     }
 
     .doctors-block__content {
@@ -3171,7 +3249,7 @@ footer {
 
     .doctors-block__content__mobile-buttons {
         top: 467px;
-        left: 26px;
+        left: 65px;
         gap: 30px;
     }
 
@@ -3188,6 +3266,74 @@ footer {
     .doctors-block__content__rolling {
         left: -58px;
         top: 13px;
+    }
+
+    /* principles then */
+    .principles-block {
+        height: 630px;
+    }
+
+    .principles-block__little-title {
+        width: 109px;
+        height: 30px;
+        left: calc((100% - 301px) / 2);
+    }
+
+    .principles-block__little-title__text {
+        font-size: 10px;
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .principles-block__title {
+        font-size: 16px;
+        line-height: 22px;
+        width: 240px;
+        left: calc((100% - 301px) / 2);
+        top: 50px;
+
+        span {
+            font-size: 16px;
+            line-height: 22px;
+        }
+    }
+
+    .principles-block__cards-container__card {
+        width: 260px;
+        height: 81px;
+    }
+
+    .principles-block__cards-container__card__text {
+        width: 259px;
+        height: 81px;
+    }
+
+    .rinciples-block__button-block {
+        visibility: hidden;
+        position: absolute;
+        pointer-events: none;
+    }
+
+    .principles-block__cards-container__card__text {
+        font-size: 10px;
+        line-height: 14px;
+        height: fit-content;
+    }
+
+    .principles-block__cards-container__card__image {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        top: -20px;
+        left: 130px;
+    }
+
+    .principles-block__cards-container {
+        width: 300px;
+        height: fit-content;
+        gap: 30px;
+        left: calc((100% - 300px) / 2);
+        top: 60px;
     }
 }
 
@@ -3416,5 +3562,13 @@ footer {
 
         left: 37%;
         top: 448px;
+    }
+
+    /* doctors then */
+
+    .doctors-block__content__mobile-buttons {
+        top: 467px;
+        left: 26px;
+        gap: 30px;
     }
 }
